@@ -1,0 +1,38 @@
+{
+  "name": "api-starter-hapi",
+  "version": "1.0.0",
+  "description": "Starter API for a NodeJS with Hapi",
+  "main": "index.js",
+  "scripts": {
+    "prod": "NODE_ENV=production node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rizama/api-starter-hapi.git"
+  },
+  "keywords": [
+    "api",
+    "hapi",
+    "restful"
+  ],
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizama/api-starter-hapi/issues"
+  },
+  "homepage": "https://github.com/rizama/api-starter-hapi#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "dotenv": "^10.0.0",
+    "joi": "^17.4.0",
+    "nanoid": "^3.1.20"
+  }
+}
