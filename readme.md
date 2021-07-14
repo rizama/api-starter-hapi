@@ -32,8 +32,6 @@ npm run lint
 npm run dev
 ```
 
-## Note
-If you have a suggestion or a helper function that you use frequently, feel free to add and perform a pull request. thanks. 
 
 ## Comming soon
   * Database
